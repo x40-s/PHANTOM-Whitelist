@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Phantom Town RP | نموذج التقديم والاختبار الرسمي</title>
+
+<!-- Tailwind CSS CDN -->
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Google Fonts: Tajawal -->
+
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+
+<style>
+
+{
+font-family: 'Tajawal', sans-serif;
+
+box-sizing: border-box;
+
+}
+
+
+
+/* Dark Modern Backdrop with Emerald Glows */
+
+body {
+
+background-color: #04080c;
+
+color: #f1f5f9;
+
+background-image:
+
+radial-gradient(at 10% 10%, rgba(0, 255, 153, 0.1) 0px, transparent 50%),
+
+radial-gradient(at 90% 90%, rgba(0, 229, 255, 0.08) 0px, transparent 50%),
+
+radial-gradient(at 50% 50%, rgba(6, 12, 18, 0.95) 0px, #04080c 100%);
+
+background-attachment: fixed;
+
+min-height: 100vh;
+
+}
+
+
+
+/* Neon Glow Effects */
+
+.emerald-glow-text {
+
+color: #00ff99;
+
+text-shadow: 0 0 14px rgba(0, 255, 153, 0.6);
+
+}
+
+
+
+.emerald-border-glow {
+
+border-color: rgba(0, 255, 153, 0.4);
+
+box-shadow: 0 0 20px rgba(0, 255, 153, 0.15);
+
+}
+
+
+
+/* Glassmorphism Card Style */
+
+.glass-card {
+
+background: rgba(8, 14, 20, 0.85);
+
+backdrop-filter: blur(20px);
+
+-webkit-backdrop-filter: blur(20px);
+
+border: 1px solid rgba(0, 255, 153, 0.2);
+
+box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.9), 0 0 30px rgba(0, 255, 153, 0.05);
+
+}
+
+
+
+/* Custom Input Styles */
+
+.input-box {
+
+background: rgba(4, 9, 14, 0.85);
+
+border: 1px solid rgba(0, 255, 153, 0.25);
+
+color: #ffffff;
+
+transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+
+.input-box:focus {
+
+border-color: #00ff99;
+
+box-shadow: 0 0 18px rgba(0, 255, 153, 0.35);
+
+outline: none;
+
+background: rgba(6, 13, 20, 0.95);
+
+}
+
+
+
+/* Button Gradients & Hover Effects */
+
+.btn-emerald {
+
+background: linear-gradient(135deg, #00ff99 0%, #00b368 100%);
+
+color: #020b06;
+
+font-weight: 800;
+
+box-shadow: 0 0 20px rgba(0, 255, 153, 0.3);
+
+transition: all 0.3s ease;
+
+}
+
+
+
+.btn-emerald:hover {
+
+background: linear-gradient(135deg, #33ffad 0%, #00d67d 100%);
+
+box-shadow: 0 0 30px rgba(0, 255, 153, 0.6);
+
+transform: translateY(-1px);
+
+}
+
+
+
+.btn-emerald:disabled {
+
+background: #1e293b;
+
+color: #64748b;
+
+box-shadow: none;
+
+cursor: not-allowed;
+
+transform: none;
+
+}
+
+
+
+.logo-ring {
+
+box-shadow: 0 0 25px rgba(0, 255, 153, 0.4);
+
+}
+
+
+
+/* Animation step transition */
+
+.step-content {
+
+display: none;
+
+}
+
+
+
+.step-content.active {
+
+display: block;
+
+animation: slideUpFade 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+}
+
+
+
+@keyframes slideUpFade {
+
+from {
+
+opacity: 0;
+
+transform: translateY(16px);
+
+}
+
+to {
+
+opacity: 1;
+
+transform: translateY(0);
+
+}
+
+}
+
+
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+
+width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+
+background: #04080c;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+background: #008f53;
+
+border-radius: 4px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+background: #00ff99;
+
+}
+
+</style>
+
+</head>
+
+<body class="flex flex-col min-h-screen justify-between p-3 sm:p-6 md:p-8">
+
+
+
+<header class="max-w-4xl w-full mx-auto flex items-center justify-between py-4 px-6 glass-card rounded-2xl mb-6">
+
+<div class="flex items-center space-x-4 space-x-reverse">
+
+<!-- Phantom Town Logo Visual Avatar -->
+
+<div class="w-12 h-12 rounded-full overflow-hidden border-2 border-emerald-400 logo-ring flex items-center justify-center bg-black">
+
+<svg class="w-8 h-8" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<circle cx="50" cy="50" r="48" fill="#040C08"/>
+
+<path d="M25 25 H75 V45 H48 V60 H35 V85 H25 Z" fill="#00FF99"/>
+
+<path d="M48 45 H75 V60 H48 Z" fill="#00E5FF"/>
+
+</svg>
+
+</div>
+
+<div>
+
+<h1 class="font-extrabold text-lg sm:text-xl text-white tracking-wide flex items-center gap-2">
+
+PHANTOM TOWN <span class="text-xs font-bold text-emerald-400 bg-emerald-950/80 border border-emerald-500/30 px-2 py-0.5 rounded-full">RP</span>
+
+</h1>
+
+<p class="text-xs text-emerald-400/70 font-medium">اختبار التقديم والانضمام الرسمي (Whitelist)</p>
+
+</div>
+
+</div>
+
+
+
+<div class="flex items-center gap-2 bg-emerald-950/40 border border-emerald-500/20 px-3 py-1.5 rounded-xl text-xs text-emerald-300">
+
+<span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+
+<span>التقديم مفتوح</span>
+
+</div>
+
+</header>
+
+
+
+<main class="max-w-3xl w-full mx-auto glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden my-auto">
+
+
+<!-- Progress Bar & Step Counter -->
+
+<div class="mb-8">
+
+<div class="flex justify-between items-center mb-2">
+
+<span id="step-label" class="text-sm font-extrabold text-emerald-400">السؤال 1 من 10</span>
+
+<span id="percentage-label" class="text-sm font-bold text-emerald-300">10%</span>
+
+</div>
+
+<div class="w-full bg-emerald-950/50 h-3 rounded-full overflow-hidden p-0.5 border border-emerald-800/30">
+
+<div id="progress-bar" class="bg-gradient-to-l from-emerald-400 to-cyan-400 h-full rounded-full transition-all duration-300 shadow-[0_0_12px_#00ff99]" style="width: 10%"></div>
+
+</div>
+
+</div>
+
+
+
+<!-- Form Elements -->
+
+<form id="whitelist-form" onsubmit="event.preventDefault();">
+
+
+
+<!-- STEP 1 -->
+
+<div class="step-content active" data-step="1">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">01</div>
+
+<h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-6">شرفنا باسمك وعمرك الحقيقيين؟</h2>
+
+
+<div class="space-y-5">
+
+<div>
+
+<label class="block text-sm font-semibold text-emerald-200/90 mb-2">الاسم الحقيقي الكامل</label>
+
+<input type="text" id="q1_name" placeholder="مثال: محمد العتيبي" class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500" required>
+
+</div>
+
+<div>
+
+<label class="block text-sm font-semibold text-emerald-200/90 mb-2">تاريخ الميلاد أو العمر</label>
+
+<input type="text" id="q1_age" placeholder="مثال: 20 سنة (2004/05/12)" class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500" required>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- STEP 2 -->
+
+<div class="step-content" data-step="2">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">02</div>
+
+<h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-6">معرف الديسكورد ورقم ستيم (Steam Hex)؟</h2>
+
+
+<div class="space-y-5">
+
+<div>
+
+<label class="block text-sm font-semibold text-emerald-200/90 mb-2">حساب أو يوزر الديسكورد (Discord Tag / ID)</label>
+
+<input type="text" id="q2_discord" placeholder="مثال: phantom_player أو ID" class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500" required>
+
+</div>
+
+<div>
+
+<label class="block text-sm font-semibold text-emerald-200/90 mb-2">آيدي ستيم الهكس (Steam Hex ID)</label>
+
+<input type="text" id="q2_steam" placeholder="1100001xxxxxxxx" class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500" required>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- STEP 3 -->
+
+<div class="step-content" data-step="3">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">03</div>
+
+<h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-2">ما هي قصة الشخصية؟</h2>
+
+<p class="text-xs text-emerald-400/80 mb-5 font-medium">(لا تقل عن 5 أسطر ولا تزيد عن 10 أسطر، مع توضيح الخلفية والمهنة والهدف من القدوم)</p>
+
+
+<textarea id="q3_story" rows="6" placeholder="اكتب قصة شخصيتك بالتفصيل هنا..." class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500 leading-relaxed" required></textarea>
+
+</div>
+
+
+
+<!-- STEP 4 -->
+
+<div class="step-content" data-step="4">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">04</div>
+
+<h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-6">ما هي إيجابيات وسلبيات الشخصية من القصة؟</h2>
+
+
+<textarea id="q4_pros_cons" rows="6" placeholder="اذكر النقاط الإيجابية والسلبية لشخصيتك وبصدق..." class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500 leading-relaxed" required></textarea>
+
+</div>
+
+
+
+<!-- STEP 5 -->
+
+<div class="step-content" data-step="5">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">05</div>
+
+<h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-6">هل لديك خبرة سابقة في تقمص الشخصيات؟ اكتب عنها بالتفصيل</h2>
+
+
+<textarea id="q5_experience" rows="6" placeholder="اذكر خبرتك وسيرفرات لعبت بها والقواعد التي تتقنها..." class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500 leading-relaxed" required></textarea>
+
+</div>
+
+
+
+<!-- STEP 6 -->
+
+<div class="step-content" data-step="6">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">06</div>
+
+<h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-6">ما هو سبب رغبتك في دخول المدينة؟</h2>
+
+
+<textarea id="q6_reason" rows="6" placeholder="اشرح دوافعك وأهدافك للعب داخل مدينة Phantom Town..." class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500 leading-relaxed" required></textarea>
+
+</div>
+
+
+
+<!-- STEP 7 -->
+
+<div class="step-content" data-step="7">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">07</div>
+
+<h2 class="text-xl sm:text-2xl font-bold text-white mb-5 leading-relaxed">
+
+أنت تقوم بإصلاح سيارتك، قام شخص بسحب سلاحه خلفك وأمرك برم أغراضك وتسليم مفاتيح سيارتك. ماذا ستعمل وماذا ستقول في هذه الحالة؟
+
+</h2>
+
+
+<textarea id="q7_scenario1" rows="6" placeholder="اشرح ردة فعلك وفقاً لقوانين الـ Roleplay (Fear RP)..." class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500 leading-relaxed" required></textarea>
+
+</div>
+
+
+
+<!-- STEP 8 -->
+
+<div class="step-content" data-step="8">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">08</div>
+
+<h2 class="text-xl sm:text-2xl font-bold text-white mb-5 leading-relaxed">
+
+أنت مدان لعصابة في منطقة سكنك بمبلغ كبير، ولديك وقت محدد للسداد ولا يمكنك السداد في الوقت المحدد. ما هي الطرق القانونية لتوفير المبلغ المطلوب؟
+
+</h2>
+
+
+<textarea id="q8_scenario2" rows="6" placeholder="اشرح الحلول والأنشطة القانونية التي ستتخذها لتوفير المبلغ..." class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500 leading-relaxed" required></textarea>
+
+</div>
+
+
+
+<!-- STEP 9 -->
+
+<div class="step-content" data-step="9">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">09</div>
+
+<h2 class="text-xl sm:text-2xl font-bold text-white mb-5 leading-relaxed">
+
+لديك نوع مغشوش من المخدرات تريد بيعه وقد اخترت موقع عصابة مشهورة لبيعه لزيادة ربحك، ولكن اكتشف أحد زبائنك ذلك وتبلغ العصابة واكتشف هويتك. كيف ستتصرف لتسوية الأمور مع العصابة؟
+
+</h2>
+
+
+<textarea id="q9_scenario3" rows="6" placeholder="اشرح خطتك وتصرفك لإنقاذ شخصيتك وتسوية الخلاف..." class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500 leading-relaxed" required></textarea>
+
+</div>
+
+
+
+<!-- STEP 10 -->
+
+<div class="step-content" data-step="10">
+
+<div class="text-6xl font-black text-emerald-950/80 select-none mb-1">10</div>
+
+<h2 class="text-xl sm:text-2xl font-bold text-white mb-5 leading-relaxed">
+
+احتجت في يوم من الأيام إلى مبلغ 15 ألف ولا تمتلك إلا مركبتك وقمت بعرض المركبة على أحد اللاعبين وكنتم قد اتفقتوا على 15 ألف، ولكن المشتري أراد النصب عليك وعند بيعك للمركبة وجدت أنه أعطاك مبلغ أقل من المتفق عليه. ماذا ستفعل؟
+
+</h2>
+
+
+<textarea id="q10_scenario4" rows="6" placeholder="اشرح تصرفك كاملاً داخل اللعبة (IC) وخارج اللعبة (OOC)..." class="input-box w-full p-4 rounded-xl text-white placeholder-gray-500 leading-relaxed" required></textarea>
+
+</div>
+
+
+
+<div class="flex items-center justify-between mt-8 pt-6 border-t border-emerald-900/30">
+
+<button type="button" id="prev-btn" onclick="changeStep(-1)" class="px-6 py-3 rounded-xl bg-emerald-950/80 hover:bg-emerald-900 border border-emerald-700/40 text-emerald-200 font-bold transition-all opacity-50 cursor-not-allowed" disabled>
+
+← السابق
+
+</button>
+
+
+
+<button type="button" id="next-btn" onclick="changeStep(1)" class="px-8 py-3 rounded-xl btn-emerald flex items-center gap-2 text-base">
+
+<span id="next-text">التالي</span>
+
+<span id="next-arrow">←</span>
+
+</button>
+
+</div>
+
+
+
+</form>
+
+</main>
+
+
+
+<footer class="text-center text-xs text-emerald-400/50 my-6 tracking-wider font-medium">
+
+PHANTOM TOWN RP © 2026 • ALL RIGHTS RESERVED
+
+</footer>
+
+
+
+<div id="alert-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md flex items-center justify-center p-4 z-50 hidden">
+
+<div class="glass-card max-w-md w-full p-6 sm:p-8 rounded-3xl text-center border border-emerald-500/40 shadow-[0_0_50px_rgba(0,255,153,0.2)]">
+
+<div id="alert-icon" class="text-5xl mb-4">⚠️</div>
+
+<h4 id="alert-title" class="text-xl font-black text-white mb-2">تنبيه</h4>
+
+<p id="alert-message" class="text-sm text-emerald-200/90 leading-relaxed mb-6"></p>
+
+<button onclick="closeAlertModal()" class="px-6 py-3 rounded-xl btn-emerald w-full text-sm">موافق</button>
+
+</div>
+
+</div>
+
+
+
+<script>
+
+let currentStep = 1;
+
+const totalSteps = 10;
+
+
+
+// Discord Webhook URL (Directly Integrated)
+
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1559769734071718038/-RMuipLoOaef0-34tu4mGTCQZWW4NLxldrCuRbw2I3DqlYKwWr2goADwOqAk87yi4Dbe";
+
+
+
+updateStepUI();
+
+
+
+function changeStep(delta) {
+
+if (delta === 1 && !validateCurrentStep()) {
+
+showAlert('تنبيه', 'يرجى الإجابة وتعبئة جميع الحقول المطلوبة قبل الانتقال إلى السؤال التالي.');
+
+return;
+
+}
+
+
+
+const nextStep = currentStep + delta;
+
+
+
+if (nextStep >= 1 && nextStep <= totalSteps) {
+
+currentStep = nextStep;
+
+updateStepUI();
+
+} else if (nextStep > totalSteps) {
+
+submitApplication();
+
+}
+
+}
+
+
+
+function validateCurrentStep() {
+
+const activeStepEl = document.querySelector(`.step-content[data-step="${currentStep}"]`);
+
+const inputs = activeStepEl.querySelectorAll('input[required], textarea[required]');
+
+
+let isValid = true;
+
+inputs.forEach(input => {
+
+if (!input.value.trim()) {
+
+input.classList.add('border-red-500');
+
+isValid = false;
+
+} else {
+
+input.classList.remove('border-red-500');
+
+}
+
+});
+
+return isValid;
+
+}
+
+
+
+function updateStepUI() {
+
+document.querySelectorAll('.step-content').forEach(el => {
+
+el.classList.remove('active');
+
+if (parseInt(el.dataset.step) === currentStep) {
+
+el.classList.add('active');
+
+}
+
+});
+
+
+
+document.getElementById('step-label').innerText = `السؤال ${currentStep} من ${totalSteps}`;
+
+const percentage = Math.round((currentStep / totalSteps) * 100);
+
+document.getElementById('percentage-label').innerText = `${percentage}%`;
+
+document.getElementById('progress-bar').style.width = `${percentage}%`;
+
+
+
+const prevBtn = document.getElementById('prev-btn');
+
+const nextBtn = document.getElementById('next-btn');
+
+
+
+if (currentStep === 1) {
+
+prevBtn.disabled = true;
+
+prevBtn.classList.add('opacity-50', 'cursor-not-allowed');
+
+} else {
+
+prevBtn.disabled = false;
+
+prevBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+
+}
+
+
+
+if (currentStep === totalSteps) {
+
+document.getElementById('next-text').innerText = 'إرسال التقديم النهائي';
+
+document.getElementById('next-arrow').innerText = '🚀';
+
+} else {
+
+document.getElementById('next-text').innerText = 'التالي';
+
+document.getElementById('next-arrow').innerText = '←';
+
+}
+
+
+
+window.scrollTo({ top: 0, behavior: 'smooth' });
+
+}
+
+
+
+async function submitApplication() {
+
+const formData = {
+
+name: document.getElementById('q1_name').value.trim(),
+
+age: document.getElementById('q1_age').value.trim(),
+
+discord: document.getElementById('q2_discord').value.trim(),
+
+steam: document.getElementById('q2_steam').value.trim(),
+
+story: document.getElementById('q3_story').value.trim(),
+
+prosCons: document.getElementById('q4_pros_cons').value.trim(),
+
+experience: document.getElementById('q5_experience').value.trim(),
+
+reason: document.getElementById('q6_reason').value.trim(),
+
+scenario1: document.getElementById('q7_scenario1').value.trim(),
+
+scenario2: document.getElementById('q8_scenario2').value.trim(),
+
+scenario3: document.getElementById('q9_scenario3').value.trim(),
+
+scenario4: document.getElementById('q10_scenario4').value.trim()
+
+};
+
+
+
+const embedPayload = {
+
+username: "PHANTOM TOWN RP - Whitelist Bot",
+
+avatar_url: "https://i.imgur.com/8Q9Z5ZT.png",
+
+embeds: [
+
+{
+
+title: "🟢 تقديم جديد على Whitelist - PHANTOM TOWN RP",
+
+color: 65433, // Neon Emerald Color #00FF99
+
+fields: [
+
+{ name: "👤 01. الاسم والعمر", value: `**الاسم:** ${formData.name}\n**العمر/الميلاد:** ${formData.age}`, inline: true },
+
+{ name: "🎮 02. الحسابات", value: `**Discord:** ${formData.discord}\n**Steam Hex:** \`${formData.steam}\``, inline: true },
+
+{ name: "📖 03. قصة الشخصية", value: formData.story.substring(0, 1024) },
+
+{ name: "⚖️ 04. الإيجابيات والسلبيات", value: formData.prosCons.substring(0, 1024) },
+
+{ name: "🎮 05. الخبرة السابقة", value: formData.experience.substring(0, 1024) },
+
+{ name: "🎯 06. سبب دخول المدينة", value: formData.reason.substring(0, 1024) },
+
+{ name: "🔫 07. سيناريو التهديد بالسلاح (Fear RP)", value: formData.scenario1.substring(0, 1024) },
+
+{ name: "💰 08. سيناريو الدين والطرق القانونية", value: formData.scenario2.substring(0, 1024) },
+
+{ name: "🧪 09. سيناريو المخدرات المغشوشة والعصابة", value: formData.scenario3.substring(0, 1024) },
+
+{ name: "🚗 10. سيناريو الاحتيال في بيع المركبة", value: formData.scenario4.substring(0, 1024) }
+
+],
+
+footer: {
+
+text: "Phantom Town RP • التقديم الرسمي"
+
+},
+
+timestamp: new Date().toISOString()
+
+}
+
+]
+
+};
+
+
+
+const nextBtn = document.getElementById('next-btn');
+
+nextBtn.disabled = true;
+
+document.getElementById('next-text').innerText = "جاري الإرسال...";
+
+
+
+try {
+
+const response = await fetch(WEBHOOK_URL, {
+
+method: 'POST',
+
+headers: { 'Content-Type': 'application/json' },
+
+body: JSON.stringify(embedPayload)
+
+});
+
+
+
+if (response.ok || response.status === 204) {
+
+showAlert('✅ تم الإرسال بنجاح!', 'تم إرسال اختبار التقديم الخاص بك بنجاح إلى ديسكورد مدينة Phantom Town RP. سيتم مراجعته من قِبل إدارة السيرفر قريباً.');
+
+document.getElementById('whitelist-form').reset();
+
+currentStep = 1;
+
+updateStepUI();
+
+} else {
+
+showAlert('❌ خطأ في الإرسال', 'حدثت مشكلة أثناء إرسال البيانات إلى السيرفر. يرجى التواصل مع الإدارة.');
+
+}
+
+} catch (err) {
+
+showAlert('❌ خطأ في الاتصال', 'تعذر الاتصال بالديسكورد. يرجى التأكد من الاتصال بالإنترنت والمحاولة مجدداً.');
+
+} finally {
+
+nextBtn.disabled = false;
+
+updateStepUI();
+
+}
+
+}
+
+
+
+function showAlert(title, message) {
+
+document.getElementById('alert-title').innerText = title;
+
+document.getElementById('alert-message').innerText = message;
+
+document.getElementById('alert-modal').classList.remove('hidden');
+
+}
+
+
+
+function closeAlertModal() {
+
+document.getElementById('alert-modal').classList.add('hidden');
+
+}
+
+</script>
+
+</body>
+
+</html> 
